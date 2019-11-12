@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Add partition id to record by rdkafka gem algorithm}
   spec.description   = %q{Add partition id to record by rdkafka gem algorithm}
-  # spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/joker1007/fluent-plugin-rdkafka-partitioner"
   spec.license       = "Apache-2.0"
 
   test_files, files  = `git ls-files -z`.split("\x0").partition do |f|
